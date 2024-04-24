@@ -1,29 +1,10 @@
-<script>
-  import LogoutButton from "../components/LogoutButton.svelte";
+<h1>Welcome to Ponder this!</h1>
+<h2>New dilemmas every week!</h2>
+<p>
+  Welcome to Ponder this. This website is an interactive platform where users
+  can explore and engage with various dilemmas. We present new dilemmas every
+  week, encouraging our community to share their perspectives and solutions.
+  Join us and start pondering today!
+</p>
 
-  const selectDilemmaOne = () => {
-    console.log("Dilemma one selected");
-  };
-  const selectDilemmaTwo = () => {
-    console.log("Dilemma two selected");
-  };
-</script>
-
-<LogoutButton />
-
-<main>
-  <h1>Ponder this...🤔</h1>
-  <div>
-    <div>
-      <p>What if you could create a website with just a few clicks?</p>
-      <button on:click={selectDilemmaOne}>Yeah sure...</button>
-    </div>
-    <div>
-      <p>What if you could create a website with just a few clicks?</p>
-      <button on:click={selectDilemmaTwo}>Maybe this...</button>
-    </div>
-  </div>
-</main>
-
-<style>
-</style>
+<a href="/dilemma">Start pondering!</a>
